@@ -9,3 +9,5 @@ def encr(message, key):
     return enc
 
 if __name__ == "__main__":
+    message = input("Enter your message in ALL CAPS: ")
+    key = input("Enter your keyword in ALL CAPS: ")
