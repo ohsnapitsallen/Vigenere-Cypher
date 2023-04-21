@@ -7,3 +7,5 @@ def encr(message, key):
         x = (mesord[i] + kord[i % klen]) % 26
         enc += chr(x + 65)
     return enc
+
+if __name__ == "__main__":
